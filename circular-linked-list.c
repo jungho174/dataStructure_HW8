@@ -171,6 +171,9 @@ void printList(listNode* h) {
  */
 int insertLast(listNode* h, int key) {
 
+    listNode* node = (listNode*)malloc(sizeof(listNode));
+    
+
 	return 1;
 }
 
